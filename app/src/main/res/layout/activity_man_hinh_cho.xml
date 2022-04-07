@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99F6F6"
+    android:orientation="vertical"
+    tools:context=".ManHinhChoActivity">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/img_logo_screen_png"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="100dp"/>
+
+    <ImageView
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:src="@drawable/img_name_app_new2"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Easy to learn, Delicious to cook"
+        android:textColor="@color/teal_700"
+        android:textSize="22dp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="italic"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="190dp"
+        android:text="Develop by Team 7 - FPT EDU" />
+
+</LinearLayout>

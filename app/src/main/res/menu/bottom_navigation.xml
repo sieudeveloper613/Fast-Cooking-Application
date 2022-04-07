@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/page_1"
+        android:enabled="true"
+        android:title="Nguyên Liệu"
+        android:icon="@drawable/icon_nguyen_lieu"/>
+    <item
+        android:id="@+id/page_2"
+        android:enabled="true"
+        android:title="Cách Làm"
+        android:icon="@drawable/icon_cach_lam"/>
+
+
+</menu>

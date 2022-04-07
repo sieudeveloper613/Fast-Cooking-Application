@@ -1,0 +1,46 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="15dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/vien_banner"
+        android:padding="5dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp">
+
+            <ImageView
+                android:id="@+id/imgBanner"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/bo_cuon_kim_cham" />
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/vien_banner_name">
+        <TextView
+            android:id="@+id/tvTenBanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mon An"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textColor="#000000"
+             />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

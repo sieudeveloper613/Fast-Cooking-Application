@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:padding="1.5dp"
+        android:background="@drawable/vien_den"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="160dp">
+
+            <ImageView
+                android:id="@+id/imgItemNguyenLieu"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/bo_cuon_kim_cham" />
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tvFragment"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nguyen Lieu"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
